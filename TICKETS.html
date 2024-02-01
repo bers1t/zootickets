@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title></title>
+  <link rel="stylesheet" type="text/css" href="TICKETS.css">
+  <script src="https://kit.fontawesome.com/beed462392.js" crossorigin="anonymous"></script>
+</head>
+<body>
+   <header>
+    <h1>Tickets</h1>
+    <div class="topnav">
+      <a href="assignment.html">Home</a>
+      <a href="ABOUTUS.html">About Us</a>
+      <a class="active" href="TICKETS.html">Tickets</a>
+      <a href="EVENTS.html">Events</a>
+      <a href="contact.html">Contact Us</a>
+    </div>
+    <br><br>  
+    
+    </header>
+  
+  <div class="ticket-form">
+    <form>
+      <div class="form-field">
+        <label class="form-label" for="name">Name:</label>
+        <input class="form-input" type="text" id="name" name="name" required>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="email">Email:</label>
+        <input class="form-input" type="email" id="email" name="email" required>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="place-ticket">Place:</label>
+        <select class="form-input" id="place-ticket" name="place-ticket" required>
+          <option value="">Choose place</option>
+          <option value="MWR">Mandai Wildlife Reserve</option>
+          <option value="BP">Bird Paradise</option>
+          <option value="NS">Night Safari</option>
+          <option value="RW">River Wonders</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="ticket-type">Type of ticket:</label>
+        <select class="form-input" id="ticket-type" name="ticket-type" required>
+          <option value="">Choose type of ticket</option>
+          <option value="adult">Adult : 50$</option>
+          <option value="child">Child : 36$</option>
+          <option value="adult">Senior : 20$</option>
+        </select>
+      </div>
+      <div class="form-field">
+        <label class="form-label" for="quantity">Quantity of tickets:</label>
+        <input class="form-input" type="number" id="quantity" name="quantity" min="1" required>
+      </div>
+      <div class="form-field">
+        <button class="form-button" type="submit">Buy tickets</button>
+      </div>
+    </form>
+  </div>
+  <br><br><br><br><br><br><br><br><br><br><br><br>
+
+   <footer>
+    <p>© 2023 Singapore Zoo. All rights reserved. | Designed by Semiguk Petr</p>
+    <ul class="social-media" >
+      <li><a href="https://www.facebook.com/"><i class="fa-brands fa-square-facebook"></i></a></li>
+      <li><a href="https://twitter.com/?lang=ru"><i class="fa-brands fa-square-twitter"></i></a></li>
+      <li><a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></i></a></li>
+    </ul>
+  </footer>
+</body>
+</html>
